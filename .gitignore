@@ -1,0 +1,21 @@
+# ==========================================
+# Microsoft Access (MDB / ACCDB)
+# ==========================================
+*.laccdb
+*.ldb
+*.tmp
+
+# ==========================================
+# SQL Server (MDF / LDF / LocalDB)
+# ==========================================
+# Chặn các file cơ sở dữ liệu cục bộ tự sinh trong thư mục App_Data hoặc debug
+*.mdf
+*.ldf
+*.ndf
+
+# Chặn các file sao lưu của SQL Server
+*.bak
+*.trn
+
+# Chặn file log hoạt động của database
+*.log
